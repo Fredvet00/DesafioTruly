@@ -1,0 +1,25 @@
+{
+  "name": "ConsumindoDados",
+  "version": "1.0.0",
+  "description": "Site Consumindo dados da glpi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frederico Souza",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "express-validator": "3.2.0",
+    "glpi-client": "^2.0.0",
+    "mysql": "^2.18.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "ws": "3.3.2"
+  }
+}
